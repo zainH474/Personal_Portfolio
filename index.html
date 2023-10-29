@@ -13,13 +13,25 @@
       #text-mute {
         color: #585B5F;
       }
+
+      #text-white {
+        color: #F9FAFE;
+      }
+
+      #hr {
+        border: 2px solid white;
+        margin: auto;
+
+      }
+
     </style>
   </head>
   <body>
     <header id="head" style="background-color: #F9FAFE;" class="container-fluid pt-3 d-flex justify-content-between align-items-center">
       <h3><a id="text-mute" class="text-decoration-none" href="index.html"><span class="text-primary">Por</span>tfolio</a></h3>
       <ul class="d-flex justify-content-center align-items-center list-unstyled">
-        <li class="me-3"><a id="text-mute" href="project.html" class="text-decoration-none fw-bold">Projects</a></li>
+        <li class=""><a id="text-mute" class="text-decoration-none fw-bold" href="./index.html">Home</a></li>
+        <li class="mx-3"><a id="text-mute" href="project.html" class="text-decoration-none fw-bold">Projects</a></li>
         <li class="me-3"><a id="text-mute" href="cv.html" class="text-decoration-none fw-bold">Cv</a></li>
         <li><a id="text-mute" href="contact.html" class="text-decoration-none fw-bold">Contact</a></li>
       </ul>
@@ -28,11 +40,6 @@
     <section id="sec-1" class="container-fluid overflow-x-hidden" style="background-color: #F9FAFE; height: 100%;">
       <div class="container">
         <div class="row">
-          <div class="col-sm-1 d-none d-md-flex flex-md-column justify-content-md-center">
-            <a id="text-mute" href="https://www.instagram.com/" class="mb-3"><i class="fa-brands fa-instagram fa-2x"></i></a>
-            <a id="text-mute" href="https://twitter.com/?lang=en" class="mb-3"><i class="fa-brands fa-x-twitter fa-2x"></i></a>
-            <a id="text-mute" href="https://www.linkedin.com/feed/" class="mb-3"><i class="fa-brands fa-linkedin fa-2x"></i></a>
-          </div>
           <div class="col-12 col-md-5 d-flex justify-content-center flex-column">
             <p class="mb-0 mt-5 mt-lg-0 text-muted" style="font-size: 1.1rem;">Hi i am M.Zain Haseeb</p>
             <h1 class="text-muted">This is my personal portfolio website 
@@ -52,7 +59,7 @@
 
     </section>
 
-    <section id="sec-2" style="margin-top: 120px;" class="text-center">
+    <section id="sec-2" style="margin-top: 120px; height:100%;" class="text-center">
       <div class="container d-flex flex-column flex-md-row align-items-baseline justify-content-center">
         <div class="col-md-6 col-12 text-md-end img-fluid">
           <img src="./img/google-docs.png" height="270" alt="" class="mb-3 mb-md-0">
@@ -104,6 +111,32 @@
         </div>
       </div>
     </section>
+
+    <footer class="bg-dark" style="height: 100%; overflow-x: hidden;">
+      <div class="container mt-3" style="color: #F9FAFE;">
+        <div class="row">
+          <div class="col-sm-1">
+
+          </div>
+          <div class="col-sm-5 col-12">
+            <p class="text-center text-sm-start">
+              <span class="fw-bold fs-5">Powered by ZI.IO</span> <br>
+              All Rights Reserved &copy;
+            </p>
+          </div>
+          <div class="col-sm-6 col-12 text-center">
+            <div class="navLinks">
+              <p class="fw-bold fs-5 mb-1">Let's connect</p>
+              <hr id="hr" class="w-25 mb-2">
+              <a id="text-white" href="https://www.instagram.com/" class="me-2 fs-5"><i class="fa-brands fa-instagram"></i></a>
+              <a id="text-white" href="https://twitter.com/?lang=en" class="me-2 fs-5"><i class="fa-brands fa-x-twitter"></i></a>
+              <a id="text-white" href="https://www.linkedin.com/feed/" class="me-2 fs-5"><i class="fa-brands fa-linkedin"></i></a>
+              <a id="text-white" href="https://github.com/" class="fs-5"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!--Type script CDN below-->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
     <script>
